@@ -12,19 +12,20 @@ This guide will help you set up and run the `preprocessing.py` script using MinI
   ```bash
   pip install minio
 
-MinIO Setup
+## Running the Script
+
+To run the `preprocessing.py` script, use the following command in your terminal:
+
+python preprocessing.py
+
+## MinIO Setup
 1. Open your MinIO server in your browser:
 http://play.min.io
 
 2. Log in using the following credentials:
 
-Username: minioadmin
-Password: minioadmin
+   Username: minioadmin
 
-3. Search for the bucket named uni-bucket.
+   Password: minioadmin
 
-Running the Script
-To run the preprocessing.py script, use the following command in your terminal:
-
-python preprocessing.py
-
+3. Search for the bucket named `uni-bucket`.
